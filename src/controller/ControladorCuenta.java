@@ -21,7 +21,7 @@ public class ControladorCuenta {
     public ControladorCuenta() {
         cuenta = new ListaEnlazada<>();
         Random rand = new Random();
-        for (int i = 1; i <= 20000; i++) {
+        for (int i = 1; i <= 10000; i++) {
             info = new CuentaBanco();
             info.setSaldo(Math.round((90.99 + (90.99 - (-90.99)) * rand.nextDouble()) * 100.0) / 100.0);
             info.setNombreTitular(generarNombreRandom());
@@ -175,7 +175,7 @@ public class ControladorCuenta {
         }
     }
 
-        /**
+    /**
      *
      * @param lista
      * @param tipoOrden
