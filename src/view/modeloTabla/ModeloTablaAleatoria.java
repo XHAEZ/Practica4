@@ -8,7 +8,6 @@ package view.modeloTabla;
 import controller.ed.lista.ListaEnlazada;
 import controller.ed.lista.exception.EmptyException;
 import controller.ed.lista.exception.PositionException;
-import controller.util.Utilities;
 import javax.swing.table.AbstractTableModel;
 import model.CuentaBanco;
 
